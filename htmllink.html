@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	 body {background-image: url("mainbackground1.png");
+                background-size:cover;  }
+      h1{  color: white ;
+        font-size: 3.75em; } 
+	</style>
+	<style type="text/css">
+	 #centerright {
+              position: absolute;
+              left:55%;
+              width:43%;
+              top:140px;
+              background:#fff;
+               filter: alpha(opacity=60);
+                opacity: 0.7; }
+
+
+          #leftcontent1 {
+              position: absolute;
+              left:1%; 
+              width:53%;
+              top:140px;
+              background:#fff;
+           filter: alpha(opacity=60);
+                opacity: 0.7;}
+
+                #leftcontent2{
+              position: absolute;
+              left:15%; 
+              width:70%;
+              top:620px;
+              background:#fff;
+           filter: alpha(opacity=60);
+                opacity: 0.7;}
+
+	</style>
+	<style type="text/css">
+	 .button2 {
+        
+    background-color: pink; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left:1%;
+    top:2000px;
+           }
+      .button2:hover {
+      	background-color: yellow;
+      }
+       
+                             .footer {
+                        position: absolute;
+                        left:30%;                     
+                        top:2500px;
+
+                    }
+      </style>
+</head>
+<body>
+
+ 
+<h1>__________________HTML LINK___________________  </h1><br>
+
+ <div id="centerright">
+      <li><h2 style="color: red"align="center"><strong>Example</strong></h2><br></li>
+      <p>-----------------------------------------------------------------------------------------------------</p>
+      <h3> <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_links" target="-blank" >Create hyperlinks</a></p>
+           <p>This example demonstrates how to create a link in an HTML document.</p><br>
+           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_imglink" target="-blank" >Use the image as a link.</a> </p>
+           <p> This example demonstrates how to use images as links.</p><br>                    
+     <p>-----------------------------------------------------------------------------------</p>
+           <br>
+           </div>
+
+     <div id="leftcontent1">
+      <h2><strong><font size="+5" color="red">HTML hyperlink (link) </font> </strong></h2>
+     <strong><font size="+2" <p>&bull;A hyperlink can be a word, a word, or a set of words, or an image that you can click on to jump to a new document or part of the current document.</p>
+     <p>&bull;When you move your mouse pointer over a link in the web page, the arrow will turn into a small hand.</p>
+     <p>&bull;We create links in HTML by using the &lt;a&gt; tag.</p>
+     <p>&bull;There are two ways to use the &lt;a&gt;  tag:</p>
+     <p><font color="green">1:By using the href attribute - create a link to another document</p>
+      <p>2:Use the name attribute - create a bookmark in the document</font></p></font></strong>
+         </div>
+
+  <div id="leftcontent2">
+   <h2><strong><font size="+5" color="red">HTML link syntax </font> </strong></h2>
+     <strong><font size="+2"> <p>The HTML code for the link is simple.It looks something like this:</p>
+        <table border="1" width="1200">
+          <tr>
+          <td> 
+          <h3> <p><font color="#7FFF00">&lt;a href="https://201632110228.github.io/">WEB FACTORY&lt;/a&gt;</font></p>
+         </h3><br>
+           </td>         
+          </tr>          
+          </table>
+
+
+     <p>The href attribute specifies the target of the link.</p>
+     <p>The text between the start tag and the end tag is displayed as a hyperlink.</p>
+    </font></strong>
+<br><br>
+    <p>-----------------------------------------------------------------------------------------------------</p>
+     <h2><strong><font size="+5" color="red">HTML link - name attribute</font> </strong></h2>
+         <strong><font size="+2"> <p>You can use the name attribute to create a bookmark in an HTML page.</p>
+         <p>Bookmarks are not displayed in any special way and are not visible to the reader.</p>
+     <p>When using named anchors (named anchors), we can create a direct jump to the named anchor links (for example, a section of the page), so that users do not need to constantly scroll to find the information they need.</p>
+    </font></strong>
+
+    <table border="2" width="1200">
+          <tr>
+          <td> 
+          <h2> <p><font color="#7FFF00">&lt;a name="label"&gt; anchor (display text on the page)&lt;/a&gt;</font></p>
+         </h2><br>
+           </td>         
+          </tr>          
+          </table>
+
+          <font color="red"> <p>&bull;Tip: the name of the anchor can be any name you like</p>
+            <p>&bull;Tip: you can use an id attribute to replace the name attribute, which is also valid</p></font>
+            <br>
+            <p>-----------------------------------------------------------------------------------------------------</p>
+            <h2 style="color: red"><strong>Example</strong></h2><br>
+            <br>
+            <font size="+2" <p>First, we name the anchor (create a bookmark) in an HTML document:</p> </font>
+
+           <table border="2" width="1200">
+              <tr>
+               <td> 
+               <h2> <p><font color="#7FFF00">&lt;a name="tips"&gt;basic precautions - useful tips &lt;/a&gt;</font></p>
+                </h2><br>
+               </td>         
+               </tr>          
+          </table><br>
+
+          <font size="+2" <p>Then, we create a link to that anchor in the same document:</p> </font>
+
+           <table border="2" width="1200">
+              <tr>
+               <td> 
+               <h2> <p><font color="#7FFF00">&lt;a href="#tips"&gt;useful reminder &lt;/a&gt;</font></p>
+                </h2><br>
+               </td>         
+               </tr>          
+          </table><br>
+
+          <font size="+2" <p>You can also create links to that anchor on other pages:</p> </font>
+
+           <table border="2" width="1200">
+              <tr>
+               <td> 
+               <h2> <p><font color="#7FFF00">&lt;a  href = "http://www.w3school.com.cn/html/html_links.asp#tips" > helpful hints  &lt;/a&gt;</font></p>
+                </h2><br>
+               </td>         
+               </tr>          
+          </table><br>
+           <font size="+2" <p>In the code above, we add the # symbol and anchor name to the end of the URL, and you can directly link to the naming anchor for tips.</p> </font>
+  </div>
+ <div  class="button2">
+        <h2 ><strong><a href="https://201632110228.github.io/"  ><font size="+6">Back HOME</font></a></strong></h2>
+        </div>
+
+         <div class="footer" >
+   <footer>
+      <font  color="white">WEB FACTORY @ https://201632110228.github.io/htmllink/
+        2017.11.16 </font>                 
+   </footer>
+  </div> 
+</body>
+</html>

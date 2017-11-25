@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+	 body {background-image: url("image1.png");
+                background-size:cover;  }
+
+                 h1{  color: white ;
+           	    font-size: 3.75em; }
+
+           	    #centerright {
+              position: absolute;
+              left:12%;
+              width:80%;
+              top:250px;
+              background:#fff;
+               filter: alpha(opacity=60);
+                opacity: 0.8; }
+
+                #centerright1 {
+              position: absolute;
+              left:12%;
+              width:80%;
+              top:1320px;
+              background:#fff;
+               filter: alpha(opacity=60);
+                opacity: 0.8; }  
+
+                 #centerright2 {
+              position: absolute;
+              left:12%;
+              width:80%;
+              top:1200px;
+              background:#fff;
+               filter: alpha(opacity=60);
+                opacity: 0.8; }
+
+
+                 #centerright3 {
+              position: absolute;
+              left:12%;
+              width:80%;
+              top:1600px;
+              background:#fff;
+               filter: alpha(opacity=60);
+                opacity: 0.8; } 
+                .button {
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+           }
+        .button:hover{
+        	background-color: green;
+
+        }
+         .footer {
+                        position: absolute;
+                        left:30%;                     
+                        top:2850px;	 }
+                         .button2 {
+        
+    background-color: pink; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    right:1%;
+    top:2600px;
+           }
+      .button2:hover {
+      	background-color: yellow;
+      }
+
+
+</style>
+</head>
+<body>
+<br><br><br><br><br>
+<h1>_____________CSS  ID    SELECTOR_________________________  </h1><br>
+<div id="centerright">
+      <h2><strong><font size="+5" color="red">CSS ID selector</font> </strong></h2>
+     <strong><font size="+2" <p>In some respects, the ID selector is similar to the class selector, but there are some important differences.</p>
+<p>First, there is a hash number in front of the ID selector, which is also called a board number or a well number.</p>
+     <p>Check out the following rules:</p>
+<table border="2" width="1200">
+              <tr>
+               <td> 
+               <h3> <p>*#intro {font-weight:bold;}</p>
+              
+                </h3>
+               </td>         
+               </tr>          
+          </table><br>  
+     </font></strong>
+     
+
+
+       <strong><font size="+2"> <p>Like the class selector, you can ignore the wildcard selector in the ID selector.
+The previous examples can also be written:</p>
+     
+     <table border="2" width="1200">
+              <tr>
+               <td> 
+               <h3> <p>#intro {font-weight:bold;}</p>
+              
+                </h3>
+               </td>         
+               </tr>          
+          </table><br>  
+                 </font></strong> 
+
+       <strong><font size="+2"> <p>The effect of this selector will be the same</p>
+                  <p>The second difference is that the ID selector does not reference the value of the class attribute, which, without a doubt, refers to the value in the ID attribute.</p>
+                   <p>Here's an example of an actual ID selector:</p>
+                    
+                      <table border="2" width="1200">
+              <tr>
+               <td> 
+               <h3> <p>&lt;p id="intro">This is a paragraph of introduction.&lt;/p></p>
+              
+                </h3>
+               </td>         
+               </tr>          
+          </table><br>  
+                 </font></strong> 
+                <left> <li> <h2 ><strong><a href="http://www.w3school.com.cn/tiy/t.asp?f=csse_selector_id" target="_blank" class="button">Click me to try</a></strong></h2></li><left>  
+         </div>
+
+         <div id="centerright1">
+      <h2><strong><font size="+5" color="red">Class selector or ID selector?</font> </strong></h2>
+     <strong><font size="+2" ><p>In the chapter on class selectors, we've explained that you can specify classes for any number of elements.The class name important in the previous chapter is applied to the p and h1 elements, and it can be applied to more elements.</p> </font></strong>
+      <h2><strong><font size="+5" color="green">Difference 1: only once in the document</font> </strong></h2>
+     <strong><font size="+2" ><p>Unlike classes, in an HTML document, the ID selector is used once, and only once.</p> </font></strong>
+      <h2><strong><font size="+5" color="green">Difference 2: you cannot use an ID word list</font> </strong></h2>
+     <strong><font size="+2" ><p>Unlike the class selector, the ID selector cannot be used in combination because the ID attribute </p> </font></strong>
+      <h2><strong><font size="+5" color="green">Difference 3: ID can have more meaning</font> </strong></h2>
+     <strong><font size="+2" ><p>Similar to classes, you can select ids independently of the elements.In some cases, you know that a particular ID value appears in the document, but you don't know which element it will appear on, so you want to declare an independent ID selector.For example, you might know that a given document will have an element with an ID value of mostImportant.You don't know whether the most important thing is a paragraph, a phrase, a list item, or a section title.You only know that each document has such an important content that it can be in any element and only one.In this case, you can write the following rules:</p>
+    
+<table border="2" width="1200">
+              <tr>
+               <td> 
+               <h3> <p>#mostImportant {color:red; background:yellow;}</p>
+              
+                </h3>
+               </td>         
+               </tr>          
+          </table><br>  
+        <p>This rule matches the following elements (these elements cannot appear in the same document, because they all have the same ID value) :</p>
+
+
+<table border="2" width="1200">
+              <tr>
+               <td> 
+               <h3> <p>&lt;h1 id="mostImportant">This is important!&lt;/h1></p>
+               <p>&lt;em id="mostImportant">This is important!&lt;/em></p>
+               <p>&lt;ul id="mostImportant">This is important!&lt;/ul></p>
+                </h3>
+               </td>         
+               </tr>          
+          </table><br>  
+
+      <left> <li> <h2 ><strong><a href="http://www.w3school.com.cn/tiy/t.asp?f=csse_selector_id_h1" target="_blank" class="button">Set the style for the h1 element of mostImportant</a></strong></h2></li><left>  
+      <left> <li> <h2 ><strong><a href="http://www.w3school.com.cn/tiy/t.asp?f=csse_selector_id_em" target="_blank" class="button">Set the style for the em element for the mostImportant</a></strong></h2></li><left>  
+      <left> <li> <h2 ><strong><a href="http://www.w3school.com.cn/tiy/t.asp?f=csse_selector_id_ul" target="_blank" class="button">Set the style for the ul element of mostImportant</a></strong></h2></li></left></div>
+
+        <div class="footer" >
+   <footer>
+      <font  color="white">WEB FACTORY @ https://201632110228.github.io/cssseletor/
+        2017.11.16 </font>                 
+   </footer>
+  </div>   
+    <div  class="button2">
+        <h2 ><strong><a href="https://201632110228.github.io/"  ><font size="+6">Back HOME</font></a></strong></h2></div>
+         <div class="footer" >
+</body>
+</html>
