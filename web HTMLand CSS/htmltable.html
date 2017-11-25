@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style type="text/css">
+
+	 body {background-image: url("image1.png");
+                background-size:cover;  }
+
+                 h1{  color: white ;
+           	    font-size: 3.75em; }
+
+           	      #centerright {
+              position: absolute;
+              left:5%;
+              width:43%;
+              top:260px;
+              background:#fff;
+               filter: alpha(opacity=60);
+                opacity: 0.7; }
+
+
+         #centerright1 {
+              position: absolute;
+              left:50%;
+              width:43%;
+              top:260px;
+              background:#fff;
+               filter: alpha(opacity=60);
+                opacity: 0.7; }
+
+
+                 #centerright2{
+              position: absolute;
+              left:5%;
+              width:43%;
+              top:760px;
+              background:#fff;
+               filter: alpha(opacity=60);
+                opacity: 0.7; }
+
+                 #centerright3 {
+              position: absolute;
+              left:50%;
+              width:43%;
+              top:1400px;
+              background:#fff;
+               filter: alpha(opacity=60);
+                opacity: 0.7; }
+
+
+img{
+     position: absolute;
+     width:43%;
+    height: 600px;
+    left:5%;
+    top: 1700px;
+    display: block;
+     filter: alpha(opacity=20);
+                opacity: 0.2;
+          }  
+ img:hover{
+     filter: alpha(opacity=80);
+                opacity: 0.8;
+           }
+
+.button2 {
+        
+    background-color: pink; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    position: absolute;
+    left:300px;
+    top:1700px;
+           }
+      .button2:hover {
+      	background-color: yellow;
+      }
+
+       .footer {
+                        position: absolute;
+                        left:30%;                     
+                        top:2700px;
+	</style>
+</head>
+<body>
+<br><br><br><br><br><br><br>
+<h1>__________________HTML TABLE________________________________  </h1><br>
+     <div id="centerright">
+      <li><h2 style="color: red"align="center"><strong>Example</strong></h2><br></li>
+      <p>-----------------------------------------------------------------------------------------------------</p>
+      <h3> <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_tables" target="-blank" >form</a></p>
+           <p> This example demonstrates how to create a table in an HTML document</p><br>
+           <p><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_table_borders" target="-blank" >Table borders</a></p>
+           <p> This example demonstrates various types of table borders</p><br>
+          
+     <p>---------------------------------------------------------------------------------------</p>
+           <br>
+            </div>
+
+            <div id="centerright1">
+     <h2><strong><font size="+5" color="green">Form </font> </strong></h2>
+    <strong><font size="+2"> <p>The table is defined by the &lt;table> label.Each table has several rows (defined by the &lt;tr> tag), and each row is split into several cells (defined by the &lt;td> tag).The letter td refers to table data, the content of a data cell.A data cell can contain text, images, lists, paragraphs, forms, horizontal lines, tables, and so on.</p>
+         <center><table border="1" width="800">
+          <tr>
+          <td> 
+          <h3> <p>&lt;table border="1"&gt;</p>
+           <p> &lt;tr&gt;</p>
+           <p>&lt;td>row 1, cell 1&lt;/td> </p>
+           <p>&lt;td>row 1, cell 2&lt;/td></p>
+           <p> &lt;/tr&gt;</p>
+           <p> &lt;tr&gt;</p>
+           <p>&lt;td>row 2, cell 1&lt;/td></p>
+           <p>&lt;td>row 2, cell 1&lt;/td></p>
+            <p> &lt;/tr&gt;</p>
+             <p> &lt;/table&gt;</p></h3>
+           </td>         
+          </tr>          
+          </table></center>
+     <p>The browser displays the following:</p><br>
+     <p>Row 1, cell 1 row 2, cell 2</p>
+      <p>Row 2, cell 1 row 1, cell 2</p>
+    </font></strong>
+         </div>
+
+
+         <div id="centerright2">
+         <h2><strong><font size="+5" color="green">Table and border attributes</font> </strong></h2>
+     <strong><font size="+2" <p>If the border property is not defined, the table will not display the border.Sometimes it's useful, but most of the time, we want to display borders.</p>
+     <p>Use the border property to display a table with borders:</p><br><br>
+         <center><table border="1" width="800">
+          <tr>
+          <td> 
+          <h3> <p>&lt;table border="1"&gt;</p>
+           <p> &lt;tr&gt;</p>
+           <p>&lt;td>Row 1, cell 1&lt;/td> </p>
+           <p>&lt;td>Row 1, cell 2&lt;/td></p>
+           <p> &lt;/tr&gt;</p>   
+
+             <p> &lt;/table&gt;</p></h3>
+           </td>         
+          </tr>          
+          </table></center><br><br><br>
+    </font></strong>
+         </div>
+
+         <div id="centerright3">
+     <h2><strong><font size="+5" color="green">Table header </font> </strong></h2>
+    <strong><font size="+2"> <p>The table header USES the &lt;th> label to define.</p>
+     <p>Most browsers display the header as text in bold text</p><br>
+         <center><table border="1" width="800">
+          <tr>
+          <td> 
+          <h3> <p>&lt;table border="1"&gt;</p>
+           <p> &lt;tr&gt;</p>
+             <p> &lt;th&gt;Heading &lt;th&gt;</p>
+               <p> &lt;th&gt;Another  Heading &lt;th&gt;</p>
+           <p>&lt;td>row 2, cell 1&lt;/td></p>
+           <p>&lt;td>row 2, cell 1&lt;/td></p>
+            <p> &lt;/tr&gt;</p>
+            <p> &lt;tr&gt;</p>
+           <p>&lt;td>row 2, cell 1&lt;/td></p>
+           <p>&lt;td>row 2, cell 1&lt;/td></p>
+            <p> &lt;/tr&gt;</p>
+             <p> &lt;/table&gt;</p></h3>
+           </td>         
+          </tr>          
+          </table></center>
+     <p>The browser displays the following:</p><br>
+     <p>Heading     &emsp;&emsp;Anthor Heading</p>
+     <p>Row 1, cell 1 row 2, cell 2</p>
+      <p>Row 2, cell 1 row 1, cell 2</p>
+    </font></strong>
+         </div>
+       
+ <div class="img"><img src="timg (1).jpg" ></div> 
+          
+   <div  class="button2">
+        <h2 ><strong><a href="https://201632110228.github.io/"  ><font size="+6">Back HOME</font></a></strong></h2>
+        </div>
+
+
+        <div class="footer" >
+   <footer>
+      <font  color="white">WEB FACTORY @ https://201632110228.github.io/htmltable/
+        2017.11.16 </font>                 
+   </footer>
+  </div> 
+</body>
+</html>

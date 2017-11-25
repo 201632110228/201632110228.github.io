@@ -1,0 +1,165 @@
+
+<head>
+       <style type="text/css">
+       .urlImg{
+       
+        width:1020;
+        height: 700;
+        display: block;
+        background-image: url("timg2.jpg");
+       }
+       .urlImg:hover{
+        background-image: url("timg (1).jpg");
+       }
+
+       </style>
+
+       <style type="text/css">
+          body {background-image: url("mainbackground1.png");
+                background-size:cover;  }
+
+           h1{  color: white ;
+           	    font-size: 4.75em;
+           	   
+           	       } 
+                   * {
+                margin: 0px;
+                padding: 0px;
+            }
+            
+            #nav {
+                width: 1920px;
+                background-color: white;
+                height: 50px;
+                /*border-radius: 10px;*/
+                position: relative;
+                margin: 20px auto;
+                top: 20px;
+                filter: alpha(opacity=60);
+                opacity: 0.7;
+
+            }
+            
+            .nav-container {
+                width: 100%;
+                height: 40px;
+                position: absolute;
+            }
+            
+            .banner {
+                float: left;
+                text-align: center;
+                height: 40px;
+                width: 20%;
+                line-height: 40px;
+                cursor: pointer;
+             
+                
+                          }
+            
+            .banner:hover {
+                background-color: red;
+                cursor: pointer;
+            }
+            
+            div ul {
+                list-style: none;
+                /*display: none;*/
+                background-color: white;
+                overflow: hidden;
+                /*模拟height:auto时候的情况*/                
+                max-height: 0px;
+                transition: max-height 0.3s;
+                /*多浏览器支持*/
+                -moz-transition: height 1s;
+                -webkit-transition: height 1s;
+                -o-transition: height 1s;
+            }
+            
+            .banner:hover ul {
+                /*display: block;*/
+                width: 100%;
+                max-height: 250px;
+            }
+            
+            div ul li {
+                overflow: hidden;
+            }
+            
+            div ul li:hover {
+                background-color: green;
+            }
+
+            a:link,a:visited{
+                    text-decoration:none;  /*超链接无下划线*/
+                             }
+                 
+                     img{
+              position: absolute;
+                width:900;
+             height: 720;
+             left:1020;
+            top: 240;
+     filter: alpha(opacity=30);
+                opacity: 0.3 ;
+ }  
+ img:hover{
+     filter: alpha(opacity=80);
+                opacity: 0.8;
+ }          
+      </style>
+	
+	       
+</head>
+<body>
+  <br><br>
+ <h1>______WEB  FACTORY________________________  </h1><br><br>
+ <div class="img"><img src="timg3.jpg" ></div> 
+ <div class="nav-container">
+            <div id="nav">
+                <div id="nav-button-1" class="banner"><strong><h2><a href="https://201632110228.github.io/" > HOME</a></h2></strong>
+                   
+                </div>
+                <div id="nav-button-2" class="banner"><strong><h2>HTML</h2></strong>
+                    <ul>
+                        <li><strong><a href="https://201632110228.github.io/htmlIntroduc" target="_blank">HTML introduction</a></strong></li>
+                        <li><strong><a href="https://201632110228.github.io/htmllink" target="_blank">HTML Link</a></strong></li>
+                        <li><strong><a href="https://201632110228.github.io/htmlimage" target="_blank" >HTML image</a></strong></li>
+                         <li><strong><a href="https://201632110228.github.io/htmltable" target="_blank" >HTML table</a></strong></li>
+                    </ul>
+                </div>
+                <div id="nav-button-3" class="banner"><strong><h2>CSS</h2></strong>
+                    <ul>
+                        <li><strong><a href="https://201632110228.github.io/CSSItron" target="_blank">CSS introduction</a></strong></li>
+                        <li><strong><a href="https://201632110228.github.io/cssselector" target="_blank" >CSS  Element selector</a></strong></li>
+                        <li><strong><a href="https://201632110228.github.io/idselector" target="_blank">CSS  ID selector</a></strong></li>
+                    </ul>
+                </div>
+                <div id="nav-button-4" class="banner"><strong><h2>Test tool </h2></strong>
+                    <ul>
+                        <li><strong><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_link_target" target="_blank">HTML linkTest</a></strong></li>                     
+                        <li><strong><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_image" target="_blank">HTML  imageTest</a></strong></li>
+                        <li><strong><a href="http://www.w3school.com.cn/tiy/t.asp?f=html_tables3" target="_blank">HTML  tableTest</a></strong></li>
+                        <li><strong><a href="http://www.w3school.com.cn/tiy/t.asp?f=csse_selector_type_1" target="_blank">CSS  Element selectorTest</a></strong></li>
+                        <li><strong><a href="http://www.w3school.com.cn/tiy/t.asp?f=csse_selector_id" target="_blank">CSS  ID selectorTest</a></strong></li>
+                       
+                    </ul>
+                </div>
+                <div id="nav-button-5" class="banner"><strong><h2>About</h2></strong>
+                    <ul>
+                        <li><a href="https://201632110228.github.io/About" target="_blank">About WEB Factory</a></li>
+                        <li><a href="https://201632110228.github.io/us" target="_blank">Our information</a> </li>
+                       
+                    </ul>
+                </div>
+            </div>
+        </div>
+<br><br><br><br><br>
+<p class="urlImg"></p>
+  <footer>
+       <center><font  color="white">WEB FACTORY @ https://201632110228.github.io/
+        2017.11.16 </font></center>                     
+   </footer>
+
+</body>
+</html>
